@@ -7,8 +7,46 @@
 </head>
 <body>
   <h1>HTML FORM</h1>
+  <h2>Login Form</h2>
   <form action="/">
-    <input type="text" name="search">
+    <div><label for="name">Name</label></div>
+    <input id="name" type="text" name="name"  placeholder="Enter your name">
   </form>
+  <form action="/">
+    <p> <div><label for="email">Email</label></div>
+    <input id="email" type="email" name="email" placeholder="Enter your email"></p>
+  </form>
+  <form action="/">
+    <p> <div><label for="mobile">Mobile number</label></div>
+    <input id="mobile" type="tel" name="mobile"  placeholder="Enter your mobile number"></p>
+  </form>
+  <form action="/">
+    <p> <div><label for="password">Password</label></div>
+    <input id="password" type="password" name="password" placeholder="Enter your password"></p>
+  
+    <button type="reset">Reset</button>
+   <button type="submit">Submit</button>
+  </form>
+  
+   <div hidden>
+  <h2>flipkart search</h2>
+  <form action="https://www.flipkart.com/search">
+ <label for="flipkart">flipcart <search></search></label> 
+    <input id="flipkart" type="text" name="q">
+    <button>search on flipkart</button>
+  </form>
+
+  <h2>my search</h2>
+  <form action="/">
+    <input type="text" placeholder="please input your name">
+    <input type="password" placeholder="please input your password">
+    <input type="number" placeholder="place enter your mobile number">
+    <input type="checkbox">
+    <input type="date" placeholder="please enter your birthdate">
+    <input type="time">
+    <input type="file">
+    <input type="submit" value="search">
+    <button>submit</button>
+  </form></div>
 </body>
 </html>
